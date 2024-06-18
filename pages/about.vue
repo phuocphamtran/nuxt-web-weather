@@ -2,9 +2,9 @@
 </script>
 
 <template>
-  <div class="tw-flex tw-justify-center">
-    <div class="tw-text-blue-500">
-      About - Weather App with Nuxt 3
+  <div class="flex justify-center">
+    <div class="text-blue-500">
+      About
     </div>
   </div>
 </template>
