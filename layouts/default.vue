@@ -6,16 +6,21 @@ function changeTheme() {
 </script>
 
 <template>
-  <div class="flex justify-between items-center">
+  <div class="flex justify-between items-center bg-utility-gray-400">
     <div class="flex justify-center h-full">
-      <div class="header-container mr-1">
+      <div class="header-container">
         <NuxtLink to="/">
           Home
         </NuxtLink>
       </div>
-      <div class="header-container">
+      <div class="header-container mx-4">
         <NuxtLink to="/about">
           About
+        </NuxtLink>
+      </div>
+      <div class="header-container">
+        <NuxtLink to="/create">
+          Create
         </NuxtLink>
       </div>
     </div>
@@ -29,7 +34,7 @@ function changeTheme() {
       </UButton>
     </div>
   </div>
-  <div>
+  <div class="mx-10 mt-10 flex justify-center">
     <NuxtPage />
   </div>
 </template>

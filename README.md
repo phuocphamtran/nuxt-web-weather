@@ -7,6 +7,10 @@ Add --dev flag when installing devDependencies and # why you need this package
 ```shell
 yarn add typescript eslint @antfu/eslint-config #config eslint
 yarn add sass @nuxtjs/tailwindcss nuxt-headlessui #config style
+yarn add v-calendar@next @popperjs/core #config date picker
+yarn add tw-colors #config color themes for tailwindcss
+yarn add date-fns #config date utility library
+
 ```
 
 ## Setup
